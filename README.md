@@ -18,16 +18,48 @@ listOf(), emptyList(), setOf(), emptySet(), arrayOf(), intArrayOf(), mapOf(), mu
 
 #### Kata3
 
+```kotlin
+map{ }, flatMap{ }, flatten(), mapKeys{ }, mapValues{ }, mapIndexed{ }, associateBy{ }
+```
+
 #### Kata4
+
+```kotlin
+reversed(), slice(), sorted(), sortedByDescending{ }, sortedWith{ }, zip(), unzip()
+```
 
 #### Kata5
 
+```kotlin
+fold(), foldIndexed{ }, reduce(), reduceIndexed{ }, groupBy{ }, groupingBy{ }, chunked()
+```
+
 #### Kata6
+
+```kotlin
+
+```
 
 #### Kata7
 
+```kotlin
+
+```
+
 #### Kata8
+
+```kotlin
+
+```
 
 #### Kata9
 
+```kotlin
+
+```
+
 #### Kata10
+
+```kotlin
+
+```

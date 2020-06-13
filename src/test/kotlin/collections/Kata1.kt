@@ -3,6 +3,10 @@ package collections
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
+/*
+    Create arrays, lists, sets, and maps
+ */
+
 class Kata1 {
     @Test
     fun `Create an empty list of Strings`() {

@@ -1,3 +1,4 @@
+import collections.*
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Nested
@@ -140,7 +141,7 @@ class Collections {
 
         @Test
         fun `map | Map a date to its year`() {
-            val dates: List<LocalDate> = listOf(
+            val dates = listOf(
                 LocalDate.of(1971,2,2),
                 LocalDate.of(1980,5,6),
                 LocalDate.of(1999,1,14),

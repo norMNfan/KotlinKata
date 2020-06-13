@@ -1,4 +1,4 @@
-/*
+package collections/*
     You can use emptyList() or listOf()
  */
 val emptyListOfStringSolution: List<String> = emptyList()

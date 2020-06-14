@@ -107,6 +107,13 @@ class Kata7 {
 
     @Nested
     inner class Find {
+        fun `Perform a binary search on a  list of numbers to find if 8 exists`() {
+            val nums = listOf(6,5,9,56,24,21,17,8,45,6,23,5,1)
+            val does8exist = TODO()
 
+            assertEquals(true, does8exist)
+        }
+
+        fun `Find
     }
 }

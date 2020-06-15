@@ -4,12 +4,6 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 
-/*
-    Operators and Filter
-    +, -
-    filter{ }
- */
-
 class Kata2 {
 
     @Nested

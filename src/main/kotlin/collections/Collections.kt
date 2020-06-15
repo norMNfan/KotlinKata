@@ -1,9 +1,13 @@
 package collections
-// emptyList() or listOf()
+
+/*
+    You can use emptyList() or listOf()
+ */
 val emptyListOfStringSolution: List<String> = emptyList()
 
-// emptySet() or setOf()
 val emptySetOfStringSolution: Set<String> = emptySet()
+
+val numsOneTwoThreeSolution: IntArray = intArrayOf(1, 2, 3)
 
 val nameMapSolution: Map<String, String> = mapOf("Steve" to "Jobs", "Larry" to "Ellison")
 

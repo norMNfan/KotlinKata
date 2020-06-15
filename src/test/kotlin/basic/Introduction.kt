@@ -1,8 +1,8 @@
 package basic
 
-import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Nested
+import org.junit.jupiter.api.Test
 
 class Introduction {
 
@@ -12,7 +12,7 @@ class Introduction {
         fun `Assign a String`() {
             val helloWorld: String = TODO("Assign me!")
 
-            assertEquals(helloWorld,"Hello World!")
+            assertEquals(helloWorld, "Hello World!")
         }
     }
 }

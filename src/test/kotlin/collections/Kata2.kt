@@ -16,18 +16,18 @@ class Kata2 {
     inner class Operators {
         @Test
         fun `Add two lists together`() {
-            val nums1 = listOf(1,2,3)
-            val nums2 = listOf(4,5,6)
+            val nums1 = listOf(1, 2, 3)
+            val nums2 = listOf(4, 5, 6)
             val nums3 = TODO("In kotlin, lists are read-only, which means adding two lists together creates a new list")
 
-            assertEquals(listOf(1,2,3,4,5,6), nums3)
+            assertEquals(listOf(1, 2, 3, 4, 5, 6), nums3)
         }
 
         @Test
         fun `Remove an item from a list`() {
-            val nums = listOf(1,2,3)
+            val nums = listOf(1, 2, 3)
 
-            assertEquals(listOf(1,2), nums)
+            assertEquals(listOf(1, 2), nums)
         }
 
         @Test
@@ -39,9 +39,9 @@ class Kata2 {
 
         @Test
         fun `Add an element to a mutable list`() {
-            val nums = mutableListOf(1,2,3)
+            val nums = mutableListOf(1, 2, 3)
 
-            assertEquals(mutableListOf(1,2,3,4), nums)
+            assertEquals(mutableListOf(1, 2, 3, 4), nums)
         }
     }
 
@@ -49,16 +49,16 @@ class Kata2 {
     inner class Filtering {
         @Test
         fun `Filter numbers less than 5`() {
-            val nums = listOf(1,2,3,4,5,6,7,8,9,10)
+            val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-            assertEquals(listOf(1,2,3,4), nums)
+            assertEquals(listOf(1, 2, 3, 4), nums)
         }
 
         @Test
         fun `Filter even numbers only`() {
-            val nums = listOf(1,2,3,4,5,6,7,8,9,10)
+            val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-            assertEquals(listOf(2,4,6,8,10), nums)
+            assertEquals(listOf(2, 4, 6, 8, 10), nums)
         }
 
         @Test
@@ -76,10 +76,12 @@ class Kata2 {
                 1944 to "Larry Ellison"
             )
 
-            assertEquals(mapOf(
-                1971 to "Elon Musk",
-                1944 to "Larry Ellison"
-            ), names)
+            assertEquals(
+                mapOf(
+                    1971 to "Elon Musk",
+                    1944 to "Larry Ellison"
+                ), names
+            )
         }
 
         @Test
@@ -90,17 +92,19 @@ class Kata2 {
                 1944 to "Larry Ellison"
             )
 
-            assertEquals(mapOf(
-                1971 to "Elon Musk",
-                1944 to "Larry Ellison"
-            ), names)
+            assertEquals(
+                mapOf(
+                    1971 to "Elon Musk",
+                    1944 to "Larry Ellison"
+                ), names
+            )
         }
 
         @Test
         fun `Filter by index`() {
-            val nums = listOf(1,2,3,4,5)
+            val nums = listOf(1, 2, 3, 4, 5)
 
-            assertEquals(listOf(1,2,5), nums)
+            assertEquals(listOf(1, 2, 5), nums)
         }
     }
 }

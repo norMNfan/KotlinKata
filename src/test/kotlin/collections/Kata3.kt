@@ -15,11 +15,11 @@ class Kata3 {
     @Test
     fun `Map a date to its year`() {
         val dates = listOf(
-            LocalDate.of(1971,2,2),
-            LocalDate.of(1980,5,6),
-            LocalDate.of(1999,1,14),
-            LocalDate.of(1957,9,3),
-            LocalDate.of(2034,10,29)
+            LocalDate.of(1971, 2, 2),
+            LocalDate.of(1980, 5, 6),
+            LocalDate.of(1999, 1, 14),
+            LocalDate.of(1957, 9, 3),
+            LocalDate.of(2034, 10, 29)
         )
 
         assertEquals(listOf(1971, 1980, 1999, 1956, 2034), dates)
@@ -27,7 +27,7 @@ class Kata3 {
 
     @Test
     fun `Map all not null`() {
-        val nums = listOf(3,null,6,1,null)
+        val nums = listOf(3, null, 6, 1, null)
 
         assertEquals(listOf(3, 6, 1), nums)
     }
@@ -68,9 +68,9 @@ class Kata3 {
 
     @Test
     fun `mapIndexed | Add +1 to every even numbered index`() {
-        val nums = listOf(1,2,3,4,5,6,7,8,9,10)
+        val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-        assertEquals(listOf(2,2,4,4,6,6,8,8,10,10), nums)
+        assertEquals(listOf(2, 2, 4, 4, 6, 6, 8, 8, 10, 10), nums)
     }
 
     @Test
@@ -91,7 +91,7 @@ class Kata3 {
             listOf("Andrew", "Simon")
         )
 
-        assertEquals(listOf(7,5,4,6,5), names)
+        assertEquals(listOf(7, 5, 4, 6, 5), names)
     }
 
     @Test
@@ -102,10 +102,12 @@ class Kata3 {
             Person("Larry Ellison", 1944)
         )
 
-        assertEquals(mapOf(
-            "Steve Jobs" to Person("Steve Jobs", 1956),
-            "Elon Musk" to Person("Elon Musk", 1972),
-            "Larry Ellison" to Person("Larry Ellison", 1944)
-        ), people)
+        assertEquals(
+            mapOf(
+                "Steve Jobs" to Person("Steve Jobs", 1956),
+                "Elon Musk" to Person("Elon Musk", 1972),
+                "Larry Ellison" to Person("Larry Ellison", 1944)
+            ), people
+        )
     }
 }

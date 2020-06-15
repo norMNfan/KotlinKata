@@ -18,7 +18,7 @@ class Kata9 {
 
         @Test
         fun `Print each number in the list`() {
-            val nums = listOf(5,2,1,9,2)
+            val nums = listOf(5, 2, 1, 9, 2)
 
             TODO()
         }
@@ -28,7 +28,7 @@ class Kata9 {
     inner class Checks {
         @Test
         fun `Find whether any number is divisble by 5`() {
-            val nums = listOf(4,232,1094,-88)
+            val nums = listOf(4, 232, 1094, -88)
             val isAnyDivisibleByFive = TODO()
 
             assertEquals(false, isAnyDivisibleByFive)
@@ -36,8 +36,8 @@ class Kata9 {
 
         @Test
         fun `Find whether nms1 contains all elements of nums2`() {
-            val nums1 = listOf(76,1,45,2,7,90,24,55,27)
-            val nums2 = listOf(90,1,55,27)
+            val nums1 = listOf(76, 1, 45, 2, 7, 90, 24, 55, 27)
+            val nums2 = listOf(90, 1, 55, 27)
             val num1ContainsNums2 = TODO()
 
             assertEquals(true, num1ContainsNums2)
@@ -65,7 +65,7 @@ class Kata9 {
 
         @Test
         fun `Find if all numbers are even`() {
-            val nums = listOf(4,232,1094,-88)
+            val nums = listOf(4, 232, 1094, -88)
             val areAllNumsEven = TODO()
 
             assertEquals(true, areAllNumsEven)
@@ -73,7 +73,7 @@ class Kata9 {
 
         @Test
         fun `Find if none of the numbers in a list are negative`() {
-            val nums = listOf(7,4,-9,4,-7,0)
+            val nums = listOf(7, 4, -9, 4, -7, 0)
             val noneAreNegative = nums.none { it < 0 }
 
             assertEquals(false, noneAreNegative)

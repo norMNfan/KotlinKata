@@ -63,7 +63,7 @@ class Kata2 {
         }
 
         @Test
-        fun `Filter a map by the keys`() {
+        fun `Filter only people born before 1960`() {
             val names = mapOf(
                 1971 to "Elon Musk",
                 1955 to "Steve Jobs",
@@ -71,7 +71,7 @@ class Kata2 {
             )
 
             assertEquals(mapOf(
-                1971 to "Elon Musk",
+                1955 to "Steve Jobs",
                 1944 to "Larry Ellison"
             ), names)
         }

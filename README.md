@@ -37,29 +37,23 @@ fold(), foldIndexed{ }, reduce(), reduceIndexed{ }, groupBy{ }, groupingBy{ }, c
 #### Kata6
 
 ```kotlin
-
+count(), count{ } ,average(), max(), maxBy{ }, min, minBy{ }, sum(), sumBy{ }
 ```
 
 #### Kata7
 
 ```kotlin
-
+take(), takeWhile{ }, takeLast(), takeLastWhile{ }, drop(), dropWhile{ }, dropLast(), dropLastWhile{ }, elementAt() ,elementAtOrElse() { }
 ```
 
 #### Kata8
 
 ```kotlin
-
+distinct(), intersect(), union(), binarySearch(), find{ }, fidLast{ }
 ```
 
 #### Kata9
 
 ```kotlin
-
-```
-
-#### Kata10
-
-```kotlin
-
+onEach{ }, forEach{ }, any{ }, contains(), containsAll{ }, in, containsKey(), all{ }, none{ }, isEmpty(), isNotEmpty()
 ```

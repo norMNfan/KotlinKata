@@ -1,59 +1,60 @@
-Kotlin Kata
+Kotlin Katas
 ---
 
-Based on the popular [Kotlin Koans](https://play.kotlinlang.org/koans/overview) I decided to make my own version.
+Based on the popular [Kotlin Koans](https://play.kotlinlang.org/koans/overview) I decided to make my own Katas.
 
+## How To Use This Kata
+
+Clone the code and fix the tests.
+Start with Kata1, then Kata2, etc.
 
 ### Collections
 
 #### Kata1
-```kotlin
-listOf(), emptyList(), setOf(), emptySet(), arrayOf(), intArrayOf(), mapOf(), mutableListOf(), mutableMapOf(), mutableSetOf()
-```
+- Create collections
 
 #### Kata2
-```kotlin
-+, -, filter{ }, filterKeys{ }, filterValues{ }, filterIndexed{ }
-```
+- Operators
+- Filters
 
 #### Kata3
-
-```kotlin
-map{ }, flatMap{ }, flatten(), mapKeys{ }, mapValues{ }, mapIndexed{ }, associateBy{ }
-```
+- Map
+- Flatamp
+- Associate
 
 #### Kata4
-
-```kotlin
-reversed(), slice(), sorted(), sortedByDescending{ }, sortedWith{ }, zip(), unzip()
-```
+- Reverse
+- Slice
+- Sort
+- Zip
 
 #### Kata5
-
-```kotlin
-fold(), foldIndexed{ }, reduce(), reduceIndexed{ }, groupBy{ }, groupingBy{ }, chunked()
-```
+- Fold
+- Reduce
+- Group
+- Chunk
 
 #### Kata6
-
-```kotlin
-count(), count{ } ,average(), max(), maxBy{ }, min, minBy{ }, sum(), sumBy{ }
-```
+- Count
+- Average
+- Max
+- Min
+- Sum
 
 #### Kata7
-
-```kotlin
-take(), takeWhile{ }, takeLast(), takeLastWhile{ }, drop(), dropWhile{ }, dropLast(), dropLastWhile{ }, elementAt() ,elementAtOrElse() { }
-```
+- Take
+- Drop
+- Get
 
 #### Kata8
-
-```kotlin
-distinct(), intersect(), union(), binarySearch(), find{ }, fidLast{ }
-```
+- Distinct
+- Intersect
+- Union
+- Find
 
 #### Kata9
-
-```kotlin
-onEach{ }, forEach{ }, any{ }, contains(), containsAll{ }, in, containsKey(), all{ }, none{ }, isEmpty(), isNotEmpty()
-```
+- ForEach
+- Any
+- Contains
+- All
+- None

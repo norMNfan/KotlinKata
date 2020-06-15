@@ -1,5 +1,6 @@
 Kotlin Katas
 ---
+[![Build Status](https://travis-ci.org/norMNfan/kotlinKata.svg?branch=master)](https://travis-ci.org/norMNfan/kotlinKata)
 
 Based on the popular [Kotlin Koans](https://play.kotlinlang.org/koans/overview) I decided to make my own Katas.
 
